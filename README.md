@@ -4,9 +4,10 @@
 
 ## Description
 
-| Directory          | Description         |
-|--------------------|---------------------|
-| `/meeting-minutes` | All meeting minutes |
+| Directory          | Description          |
+|--------------------|----------------------|
+| `/.ssh`            | Dark... dark secrets |
+| `/meeting-minutes` | All meeting minutes  |
 
 ## Current Structure
 
