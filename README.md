@@ -1,13 +1,11 @@
-# Welcome to Catppuccin Staff 🎉
-
-> 🐈‍⬛ A soothing place for _dark secrets_
+# Welcome to the Catppuccin Community 🎉
 
 ## Description
 
 | Directory          | Description          |
-|--------------------|----------------------|
-| `/.ssh`            | Dark... dark secrets |
+| ------------------ | -------------------- |
 | `/meeting-minutes` | All meeting minutes  |
+| `/rfc`             | All RFC's            |
 
 ## Current Structure
 
