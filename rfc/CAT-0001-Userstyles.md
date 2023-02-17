@@ -6,7 +6,7 @@ Date: **2022-02-13**
 
 | Draft | In Review | Done |
 | :---: | --------- | ---- |
-|  ☑️   |           |      |
+|  ☑️    | ☑️         |      |
 
 ## Proposed By
 
@@ -21,8 +21,8 @@ Date: **2022-02-13**
 ## Introduction
 
 As it stands, the Catppuccin project accepts userstyles as their own separate
-port request. Userstyles are ports that are uniquely only for websites on the
-internet can be styled via
+port request, resulting in a separate GitHub repository. To clarify, userstyles
+are simply styles for websites created via
 [Stylus](https://addons.mozilla.org/firefox/addon/styl-us/) or
 [Stylish](https://addons.mozilla.org/firefox/addon/stylish/).
 
@@ -51,16 +51,16 @@ what to do with the existing userstyles need to be carefully considered.
 We, the staff team, have discussed and talked about a variety of different
 approaches. These approaches ranged from the deletion of existing userstyle
 repositories, archiving them and leaving them alone and including them as
-submodules within a new centralised repository.
+submodules within a new centralized repository.
 
 **We would like to propose that existing userstyle repositories are archived and
-each repo's git history should be transferred into the git history. The archived
-repository will have its README.md updated to point towards the new centralised
-repository.**
+the latest snapshot of git history of each repository should be transferred to
+the new centralized repository. The archived repository will have its README.md
+updated to point towards the new centralized repository.**
 
 New userstyles would be merged into this repository in the same way that the
-existing userstyles are migrated over. Resulting in a consistent look and feel
-across the entire repository.
+existing userstyles are migrated over. Therefore, resulting in a consistent look
+and feel across the entire repository.
 
 `Example Structure:`
 
@@ -109,12 +109,16 @@ writing this.
 
 #### What about ports like Spicetify & Discord?
 
-Should we also transfer ports like this over to the central userstyles
-repository?
+We are currently opposed transferring those ports to this due to the effort it
+would take to transfer on top of the existing userstyles. While these ports work
+with Stylus/Stylish, they are not made with those in mind.
 
-We are currently opposed to this due to the effort it would take to transfer
-those ports on top of the existing userstyles. While these ports work with
-Stylus/Stylish, they are not made with those in mind.
+#### How will ownership / maintainer permissions be managed?
+
+We aim to take advantage of the GitHub
+[CODEOWNERS](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners)
+file which allows us to add maintainers on a per-folder basis, therefore
+allowing many maintainers to own the folder of their userstyle(s).
 
 ### Pros
 
