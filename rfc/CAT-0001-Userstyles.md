@@ -6,7 +6,7 @@ Date: **2022-02-13**
 
 | Draft | In Review | Done |
 | :---: | --------- | ---- |
-|  ☑️    | ☑️         |      |
+|  ☑️    | ☑️         | ☑️     |
 
 ## Proposed By
 
@@ -138,7 +138,3 @@ allowing many maintainers to own the folder of their userstyle(s).
     migration.
   - Update documentation with clear, precise and informative instructions on how
     to submit userstyle ports.
-
-## Decision Made
-
-Pending Review
