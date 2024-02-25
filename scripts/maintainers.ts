@@ -6,12 +6,28 @@ const org = "catppuccin";
 
 const octokit = new Octokit({ auth: Deno.env.get("GITHUB_TOKEN") });
 
+type Table = {
+  [person: string]: {
+    write_repos: string[];
+    maintain_repos: string[];
+  };
+};
+
+const leadershipRow =
+  "[Core](https://github.com/orgs/catppuccin/teams/core)/[Staff](https://github.com/orgs/catppuccin/teams/staff)";
+const table: Table = {
+  [leadershipRow]: {
+    write_repos: [],
+    maintain_repos: [],
+  },
+};
+
 const fetchRepos = async () => {
   const repos = await octokit.paginate(octokit.rest.repos.listForOrg, {
     org,
     type: "public",
     per_page: 100,
-  });
+  }, (response) => response.data.filter((repo) => !repo.archived));
 
   return repos;
 };
@@ -29,10 +45,9 @@ const fetchLeadership = async () => {
   return new Set(result.flat());
 };
 
-const fetchCollaborators = async (
+const mapToTable = async (
   leadership: Set<string>,
   repoName: string,
-  isArchived: boolean | undefined,
 ) => {
   try {
     const { data: rawData } = await octokit.rest.repos.listCollaborators({
@@ -47,26 +62,32 @@ const fetchCollaborators = async (
       collaborator.permissions?.push
     );
 
-    // Just the people with `maintain` access.
-    const maintainers = everyone.filter((m) => m.permissions?.maintain)
-      .map((m) => `[${m.login}](${m.html_url})`)
-      .join(", ");
-    // Just the people with `write` access.
+    const repoRow = `[${repoName}](https://github.com/catppuccin/${repoName})`;
+
+    const updateTable = (person: any, key: string) => {
+      const name = `[${person.login}](${person.html_url})`;
+      if (!table[name]) {
+        table[name] = {
+          write_repos: [],
+          maintain_repos: [],
+        };
+      }
+      if (table[name]) {
+        table[name][key].push(repoRow);
+      }
+    };
+
+    const maintainers = everyone.filter((m) => m.permissions?.maintain);
     const collaborators = everyone.filter((m) =>
       m.permissions?.push && !m.permissions?.maintain
-    ).map((m) => `[${m.login}](${m.html_url})`).join(", ");
+    );
 
-    const repoRow =
-      `[${repoName}](https://github.com/catppuccin/${repoName})<br>${
-        isArchived ? "(**🚧 Archived 🚧**)" : ""
-      }`;
-    // If there are no maintainers, then we assume that the core and staff teams are the maintainers.
-    const maintainersRow = maintainers.length === 0
-      ? "[Core](https://github.com/orgs/catppuccin/teams/core)/[Staff](https://github.com/orgs/catppuccin/teams/staff)"
-      : maintainers;
-    const collaboratorsRow = collaborators.length === 0 ? "" : collaborators;
+    maintainers.forEach((person: any) => updateTable(person, "maintain_repos"));
+    collaborators.forEach((person: any) => updateTable(person, "write_repos"));
 
-    console.log(`| ${repoRow} | ${maintainersRow} | ${collaboratorsRow} |`);
+    if (maintainers.length === 0) {
+      table[leadershipRow].maintain_repos.push(repoRow);
+    }
   } catch (error) {
     console.log(
       `Unable to fetch collaborators for ${repoName}. Error: ${error.message}`,
@@ -82,10 +103,21 @@ console.log(`Fetching maintainers for ${allRepos.length} repositories...`);
 
 // NOTE: This started out as a simple stdout script, hence the console.logs
 // TODO: Explicitly write to a file instead of piping to a file.
-console.log("| Repository | `Maintain` Access | `Write` Access |");
-console.log("| ---------- | ----------------- | -------------- |");
-for (const repo of allRepos) {
-  await fetchCollaborators(leadership, repo.name, repo.archived);
+for (const [i, repo] of allRepos.entries()) {
+  console.log(`[${i + 1}]: processing repo '${repo.name}'`);
+  await mapToTable(leadership, repo.name);
 }
+
+console.error("| Collaborator | `Maintain` Access | `Write` Access |");
+console.error("| ---------- | ----------------- | -------------- |");
+Object.entries(table)
+  .sort()
+  .forEach(([person, { write_repos, maintain_repos }]) => {
+    console.error(
+      `| ${person} | ${maintain_repos.join(", ")} | ${
+        write_repos.join(", ")
+      } |`,
+    );
+  });
 
 export {};

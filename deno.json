@@ -5,7 +5,7 @@
   },
   "tasks": {
     "maintainers": "deno run --allow-env --allow-net ./scripts/maintainers.ts",
-    "maintainers:file": "deno run --allow-env --allow-net ./scripts/maintainers.ts > ./MAINTAINERS.md"
+    "maintainers:file": "deno run --allow-env --allow-net ./scripts/maintainers.ts 2> ./MAINTAINERS.md"
   },
   "nodeModulesDir": true
 }
