@@ -13,17 +13,22 @@ Date: **2024-02-04**
 <table>
   <tr>
     <td align="center"><a href="https://winston.sh/"><img src="https://avatars.githubusercontent.com/u/79978224?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Winston</b></sub></a><br /></td>
-    <td align="center"><a href="https://github.com/isabelroses"><img src="https://avatars.githubusercontent.com/u/71222764?v=4" width="100px;" alt=""/><br /><sub><b>Isabel Roses</b></sub></a><br /></td>
+    <td align="center"><a href="https://github.com/isabelroses"><img src="https://avatars.githubusercontent.com/u/71222764?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Isabel Roses</b></sub></a><br /></td>
   </tr>
 </table>
 
 ## Introduction
 
 Catppuccin is growing vastly daily and the documentation is no different. The
-documentation in its current form, is designed on per repo level just isn't
-cutting it, leading to a ping pong effect between repos. An example of a
-repository that suffers from this is
+documentation in its current form, is designed around being used on per repo
+level, but that just isn't cutting it anymore. This leads to a ping pong effect
+between repos, trying to find out information that you need for contributing. An
+example of a repository that suffers from this is
 [userstyles](https://github.com/catppuccin/userstyles).
+
+Original Winston's suggestion prior to stepping down from core, was to start a
+MediaWiki, leading Isabel Roses to take over the proposal and create a demo see
+[Catppuccin Test Wiki](https://ctp-wiki.isabelroses.com).
 
 ## Goals
 
@@ -41,9 +46,9 @@ repository that suffers from this is
 
 ## Proposal
 
-This RFC proposes a better way to organize and present our documentation.
-Winston's original suggestion prior to stepping down from core, was to start a
-MediaWiki. Other proposals include using mdbook, wiki.js or a custom solution.
+This RFC proposes a better way to organize and present our documentation. We
+should ideally move to MediaWiki. However, we should also consider other wikis
+such as mdbook, wiki.js or a custom solution.
 
 ### Examples of wikis
 
