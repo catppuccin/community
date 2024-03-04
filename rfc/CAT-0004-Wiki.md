@@ -26,7 +26,7 @@ between repos, trying to find out information that you need for contributing. An
 example of a repository that suffers from this is
 [userstyles](https://github.com/catppuccin/userstyles).
 
-Original Winston's suggestion prior to stepping down from core, was to start a
+Originally, Winston's suggestion prior to stepping down from core was to start a
 MediaWiki, leading Isabel Roses to take over the proposal and create a demo see
 [Catppuccin Test Wiki](https://ctp-wiki.isabelroses.com).
 
@@ -48,9 +48,9 @@ MediaWiki, leading Isabel Roses to take over the proposal and create a demo see
 
 This RFC proposes a better way to organize and present our documentation. We
 should ideally move to MediaWiki. However, we should also consider other wikis
-such as mdbook, wiki.js or a custom solution.
+such as mdBook, wiki.js or a custom solution.
 
-### Examples of wikis
+### Existing wiki deployments
 
 #### MediaWiki
 
@@ -58,7 +58,7 @@ such as mdbook, wiki.js or a custom solution.
 - [archwiki](https://wiki.archlinux.org)
 - [nixos wiki](https://nixos.wiki)
 
-#### mdbook
+#### mdBook
 
 - [cargo](https://doc.rust-lang.org/cargo)
 - [Mozilla telemetry](https://docs.telemetry.mozilla.org)
@@ -71,17 +71,28 @@ such as mdbook, wiki.js or a custom solution.
 
 ### Pros
 
-- All documentation in one place
-- Easier to contribute to documentation
-- Easier to find documentation
-- Reduces repetition of information
-- Moving to either Wikimedia or mdbook will mean only small changes to the
-  current documentation, as mdbook is markdown based and Wikimedia can be
-  converted to Markdown via [pandoc](https://pandoc.org)
+- Centralisation and unification of organisation-wide docs
+- Simplified and unified contribution flow, with permission system that is
+  designed for wiki use
+- Searching and referencing tools designed for wiki use will provide better
+  information lookup experience
+- Deduplicate information sources
+- Minimal setup overhead
+  - MediaWiki: our existing docs can be largely converted with
+    [pandoc](https://pandoc.org)
+  - mdBook: already a markdown sourced doc system, docs can be directly copied
+    over
 
 ### Cons
 
-- We will need to host a wiki, this includes costs, maintenance, etc.
-- We _might_ lose the searchability of markdown files
+- Costs to the org:
+  - Server
+  - Maintenance
+  - Transfer effort
+- Setup cost
+- Increased complexity
+- New tooling to learn, content creation friction
+- Aesthetically different from our other public facing content (e.g website)
+  - Would require additional effort to theme/style accordingly
 
 ## Decision Made
