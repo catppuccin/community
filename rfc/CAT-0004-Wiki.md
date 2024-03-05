@@ -71,7 +71,7 @@ such as mdBook, wiki.js or a custom solution.
 
 ### Pros
 
-- Centralisation and unification of organisation-wide docs
+- Centralization and unification of organisation-wide docs
 - Simplified and unified contribution flow, with permission system that is
   designed for wiki use
 - Searching and referencing tools designed for wiki use will provide better
@@ -91,6 +91,10 @@ such as mdBook, wiki.js or a custom solution.
   - Transfer effort
 - Setup cost
 - Increased complexity
+- In the unfortunate event of the server goes down or the account holder is
+  inactive, we will lose access to the documentation
+- We will need a way to back up the data, similar to how our Gitea instance is a
+  backup of our GitHub repositories
 - New tooling to learn, content creation friction
 - Aesthetically different from our other public facing content (e.g website)
   - Would require additional effort to theme/style accordingly
