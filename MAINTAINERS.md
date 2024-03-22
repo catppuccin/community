@@ -14,7 +14,7 @@
 | [Brianalmeida](https://github.com/Brianalmeida) | [rio](https://github.com/catppuccin/rio) |  |
 | [BrunDerSchwarzmagier](https://github.com/BrunDerSchwarzmagier) | [sublime-text](https://github.com/catppuccin/sublime-text) |  |
 | [CallMeEchoCodes](https://github.com/CallMeEchoCodes) | [tty](https://github.com/catppuccin/tty), [minecraft](https://github.com/catppuccin/minecraft) |  |
-| [Core](https://github.com/orgs/catppuccin/teams/core)/[Staff](https://github.com/orgs/catppuccin/teams/staff) | [.github](https://github.com/catppuccin/.github), [catppuccin](https://github.com/catppuccin/catppuccin), [template](https://github.com/catppuccin/template), [xresources](https://github.com/catppuccin/xresources), [kitty](https://github.com/catppuccin/kitty), [termux](https://github.com/catppuccin/termux), [gnome-terminal](https://github.com/catppuccin/gnome-terminal), [urxvt](https://github.com/catppuccin/urxvt), [fish](https://github.com/catppuccin/fish), [palette](https://github.com/catppuccin/palette), [terminator](https://github.com/catppuccin/terminator), [cava](https://github.com/catppuccin/cava), [revolt](https://github.com/catppuccin/revolt), [wezterm](https://github.com/catppuccin/wezterm), [telegram](https://github.com/catppuccin/telegram), [foot](https://github.com/catppuccin/foot), [website](https://github.com/catppuccin/website), [whoogle](https://github.com/catppuccin/whoogle), [fzf](https://github.com/catppuccin/fzf), [dark-reader](https://github.com/catppuccin/dark-reader), [dunst](https://github.com/catppuccin/dunst), [xfce4-terminal](https://github.com/catppuccin/xfce4-terminal), [github-readme-stats](https://github.com/catppuccin/github-readme-stats), [toolbox](https://github.com/catppuccin/toolbox), [tailwindcss](https://github.com/catppuccin/tailwindcss), [highlightjs](https://github.com/catppuccin/highlightjs), [qutebrowser](https://github.com/catppuccin/qutebrowser), [windows-files](https://github.com/catppuccin/windows-files), [joplin](https://github.com/catppuccin/joplin), [mdBook](https://github.com/catppuccin/mdBook), [noir](https://github.com/catppuccin/noir), [bat](https://github.com/catppuccin/bat), [sharex](https://github.com/catppuccin/sharex), [cli](https://github.com/catppuccin/cli), [homebrew-tap](https://github.com/catppuccin/homebrew-tap), [community](https://github.com/catppuccin/community), [element](https://github.com/catppuccin/element), [regolith](https://github.com/catppuccin/regolith), [foliate](https://github.com/catppuccin/foliate), [k9s](https://github.com/catppuccin/k9s), [slack](https://github.com/catppuccin/slack), [warp](https://github.com/catppuccin/warp), [Terminal.app](https://github.com/catppuccin/Terminal.app), [mattermost](https://github.com/catppuccin/mattermost), [rust](https://github.com/catppuccin/rust), [python](https://github.com/catppuccin/python), [dwarf-fortress](https://github.com/catppuccin/dwarf-fortress), [bottom](https://github.com/catppuccin/bottom), [java](https://github.com/catppuccin/java), [ultrakill](https://github.com/catppuccin/ultrakill), [sc-im](https://github.com/catppuccin/sc-im), [qtcreator](https://github.com/catppuccin/qtcreator), [replit](https://github.com/catppuccin/replit), [cider](https://github.com/catppuccin/cider), [gitea](https://github.com/catppuccin/gitea), [vscode-pack](https://github.com/catppuccin/vscode-pack), [zsh-fsh](https://github.com/catppuccin/zsh-fsh), [oldtwitter](https://github.com/catppuccin/oldtwitter), [godot](https://github.com/catppuccin/godot) |  |
+| [Core](https://github.com/orgs/catppuccin/teams/core)/[Staff](https://github.com/orgs/catppuccin/teams/staff) | [homebrew-tap](https://github.com/catppuccin/homebrew-tap), [.github](https://github.com/catppuccin/.github), [catppuccin](https://github.com/catppuccin/catppuccin), [template](https://github.com/catppuccin/template), [xresources](https://github.com/catppuccin/xresources), [kitty](https://github.com/catppuccin/kitty), [termux](https://github.com/catppuccin/termux), [urxvt](https://github.com/catppuccin/urxvt), [fish](https://github.com/catppuccin/fish), [palette](https://github.com/catppuccin/palette), [terminator](https://github.com/catppuccin/terminator), [cava](https://github.com/catppuccin/cava), [revolt](https://github.com/catppuccin/revolt), [telegram](https://github.com/catppuccin/telegram), [foot](https://github.com/catppuccin/foot), [website](https://github.com/catppuccin/website), [whoogle](https://github.com/catppuccin/whoogle), [fzf](https://github.com/catppuccin/fzf), [dark-reader](https://github.com/catppuccin/dark-reader), [dunst](https://github.com/catppuccin/dunst), [xfce4-terminal](https://github.com/catppuccin/xfce4-terminal), [github-readme-stats](https://github.com/catppuccin/github-readme-stats), [toolbox](https://github.com/catppuccin/toolbox), [windows-files](https://github.com/catppuccin/windows-files), [joplin](https://github.com/catppuccin/joplin), [mdBook](https://github.com/catppuccin/mdBook), [sharex](https://github.com/catppuccin/sharex), [cli](https://github.com/catppuccin/cli), [community](https://github.com/catppuccin/community), [element](https://github.com/catppuccin/element), [regolith](https://github.com/catppuccin/regolith), [foliate](https://github.com/catppuccin/foliate), [slack](https://github.com/catppuccin/slack), [rust](https://github.com/catppuccin/rust), [python](https://github.com/catppuccin/python), [dwarf-fortress](https://github.com/catppuccin/dwarf-fortress), [java](https://github.com/catppuccin/java), [ultrakill](https://github.com/catppuccin/ultrakill), [qtcreator](https://github.com/catppuccin/qtcreator), [replit](https://github.com/catppuccin/replit), [oldtwitter](https://github.com/catppuccin/oldtwitter), [godot](https://github.com/catppuccin/godot) |  |
 | [Daeraxa](https://github.com/Daeraxa) | [halloy](https://github.com/catppuccin/halloy) |  |
 | [Dandraghas](https://github.com/Dandraghas) | [userstyles](https://github.com/catppuccin/userstyles) |  |
 | [Delta456](https://github.com/Delta456) | [v](https://github.com/catppuccin/v) |  |
@@ -27,19 +27,21 @@
 | [Gandalf-the-Blue](https://github.com/Gandalf-the-Blue) | [userstyles](https://github.com/catppuccin/userstyles) |  |
 | [GenShibe](https://github.com/GenShibe) | [userstyles](https://github.com/catppuccin/userstyles) |  |
 | [GitMuslim](https://github.com/GitMuslim) | [userstyles](https://github.com/catppuccin/userstyles) |  |
+| [Guaxinim5573](https://github.com/Guaxinim5573) | [userstyles](https://github.com/catppuccin/userstyles) |  |
 | [InvitedToHell](https://github.com/InvitedToHell) | [notepad-plus-plus](https://github.com/catppuccin/notepad-plus-plus) |  |
 | [JK-Flip-Flop96](https://github.com/JK-Flip-Flop96) | [powershell](https://github.com/catppuccin/powershell) |  |
 | [James-McK](https://github.com/James-McK) | [musicbee](https://github.com/catppuccin/musicbee) |  |
 | [Jint-lzxy](https://github.com/Jint-lzxy) |  | [nvim](https://github.com/catppuccin/nvim) |
 | [JoshPaulie](https://github.com/JoshPaulie) | [starship](https://github.com/catppuccin/starship) |  |
 | [Kettukaa](https://github.com/Kettukaa) | [stable-diffusion-webui](https://github.com/catppuccin/stable-diffusion-webui) |  |
-| [LudoPinelli](https://github.com/LudoPinelli) | [windows-terminal](https://github.com/catppuccin/windows-terminal) | [wezterm](https://github.com/catppuccin/wezterm) |
+| [LudoPinelli](https://github.com/LudoPinelli) | [windows-terminal](https://github.com/catppuccin/windows-terminal) |  |
 | [M3nny](https://github.com/M3nny) | [vim](https://github.com/catppuccin/vim) |  |
 | [Mqisty](https://github.com/Mqisty) | [prismlauncher](https://github.com/catppuccin/prismlauncher) |  |
 | [NamesCode](https://github.com/NamesCode) | [emacs](https://github.com/catppuccin/emacs) |  |
+| [NickSquiggles](https://github.com/NickSquiggles) | [scrivener](https://github.com/catppuccin/scrivener) |  |
 | [PanAeon](https://github.com/PanAeon) | [drracket](https://github.com/catppuccin/drracket) |  |
 | [Prayag2](https://github.com/Prayag2) | [kde](https://github.com/catppuccin/kde) |  |
-| [Quinxxxx](https://github.com/Quinxxxx) | [rboard](https://github.com/catppuccin/rboard) | [vendetta](https://github.com/catppuccin/vendetta) |
+| [Quinxxxx](https://github.com/Quinxxxx) | [rboard](https://github.com/catppuccin/rboard), [vendetta](https://github.com/catppuccin/vendetta) |  |
 | [RoootTheFox](https://github.com/RoootTheFox) | [userstyles](https://github.com/catppuccin/userstyles) |  |
 | [Sekki21956](https://github.com/Sekki21956) | [neomutt](https://github.com/catppuccin/neomutt), [spotify-tui](https://github.com/catppuccin/spotify-tui), [userstyles](https://github.com/catppuccin/userstyles) |  |
 | [ShyyLexi](https://github.com/ShyyLexi) | [firefox](https://github.com/catppuccin/firefox) |  |
@@ -49,20 +51,22 @@
 | [TarunDaCoder](https://github.com/TarunDaCoder) | [contour](https://github.com/catppuccin/contour) |  |
 | [TheExistingOne](https://github.com/TheExistingOne) | [konsole](https://github.com/catppuccin/konsole) |  |
 | [TheMemeSniper](https://github.com/TheMemeSniper) | [userstyles](https://github.com/catppuccin/userstyles) |  |
+| [Thomas-Philippot](https://github.com/Thomas-Philippot) | [userstyles](https://github.com/catppuccin/userstyles) |  |
 | [Tnixc](https://github.com/Tnixc) | [blockbench](https://github.com/catppuccin/blockbench), [userstyles](https://github.com/catppuccin/userstyles) |  |
 | [ToxicAven](https://github.com/ToxicAven) | [discord](https://github.com/catppuccin/discord) |  |
 | [ValentinTT](https://github.com/ValentinTT) | [ida-debugger](https://github.com/catppuccin/ida-debugger) |  |
-| [VictorTennekes](https://github.com/VictorTennekes) | [alacritty](https://github.com/catppuccin/alacritty), [iterm](https://github.com/catppuccin/iterm), [vscode](https://github.com/catppuccin/vscode), [monkeytype](https://github.com/catppuccin/monkeytype) |  |
+| [VictorTennekes](https://github.com/VictorTennekes) | [alacritty](https://github.com/catppuccin/alacritty), [iterm](https://github.com/catppuccin/iterm), [monkeytype](https://github.com/catppuccin/monkeytype) |  |
 | [Waxxx333](https://github.com/Waxxx333) | [geany](https://github.com/catppuccin/geany) |  |
-| [WitherCubes](https://github.com/WitherCubes) |  | [whoogle](https://github.com/catppuccin/whoogle), [fzf](https://github.com/catppuccin/fzf), [dark-reader](https://github.com/catppuccin/dark-reader), [dunst](https://github.com/catppuccin/dunst), [xfce4-terminal](https://github.com/catppuccin/xfce4-terminal), [github-readme-stats](https://github.com/catppuccin/github-readme-stats) |
 | [Xurdejl](https://github.com/Xurdejl) | [infinity](https://github.com/catppuccin/infinity), [obs](https://github.com/catppuccin/obs), [qbittorrent](https://github.com/catppuccin/qbittorrent) |  |
 | [Zazucki](https://github.com/Zazucki) | [speedcrunch](https://github.com/catppuccin/speedcrunch) |  |
 | [abhishekmj303](https://github.com/abhishekmj303) | [github-readme-streak-stats](https://github.com/catppuccin/github-readme-streak-stats) |  |
 | [adityastomar67](https://github.com/adityastomar67) |  | [nvim](https://github.com/catppuccin/nvim) |
 | [alythical](https://github.com/alythical) | [userstyles](https://github.com/catppuccin/userstyles) |  |
+| [andreasgrafen](https://github.com/andreasgrafen) | [revolt](https://github.com/catppuccin/revolt) |  |
 | [asrvd](https://github.com/asrvd) | [hyper](https://github.com/catppuccin/hyper), [sumatra-pdf](https://github.com/catppuccin/sumatra-pdf) |  |
 | [aszecsei](https://github.com/aszecsei) | [hexchat](https://github.com/catppuccin/hexchat) |  |
 | [ayamir](https://github.com/ayamir) | [fcitx5](https://github.com/catppuccin/fcitx5) |  |
+| [backwardspy](https://github.com/backwardspy) | [fish](https://github.com/catppuccin/fish), [rust](https://github.com/catppuccin/rust), [python](https://github.com/catppuccin/python), [godot](https://github.com/catppuccin/godot), [qtcreator](https://github.com/catppuccin/qtcreator), [dwarf-fortress](https://github.com/catppuccin/dwarf-fortress) |  |
 | [bagelwaffle](https://github.com/bagelwaffle) | [ghostwriter](https://github.com/catppuccin/ghostwriter) |  |
 | [bartlibert](https://github.com/bartlibert) | [userstyles](https://github.com/catppuccin/userstyles) |  |
 | [bashbunni](https://github.com/bashbunni) |  | [nvim](https://github.com/catppuccin/nvim) |
@@ -85,10 +89,12 @@
 | [fioncat](https://github.com/fioncat) |  | [nvim](https://github.com/catppuccin/nvim) |
 | [gabrielmagno](https://github.com/gabrielmagno) | [skim](https://github.com/catppuccin/skim), [jupyterlab](https://github.com/catppuccin/jupyterlab) |  |
 | [ghishadow](https://github.com/ghishadow) | [lapce](https://github.com/catppuccin/lapce) |  |
+| [ghostx31](https://github.com/ghostx31) | [joplin](https://github.com/catppuccin/joplin), [foliate](https://github.com/catppuccin/foliate), [element](https://github.com/catppuccin/element) |  |
 | [griimick](https://github.com/griimick) | [logseq](https://github.com/catppuccin/logseq), [codemirror](https://github.com/catppuccin/codemirror) |  |
 | [hyperreal64](https://github.com/hyperreal64) | [amfora](https://github.com/catppuccin/amfora), [zsh-syntax-highlighting](https://github.com/catppuccin/zsh-syntax-highlighting), [thelounge](https://github.com/catppuccin/thelounge) |  |
 | [ignamartinoli](https://github.com/ignamartinoli) | [newsboat](https://github.com/catppuccin/newsboat) |  |
 | [iruzo](https://github.com/iruzo) | [crt](https://github.com/catppuccin/crt), [bemenu](https://github.com/catppuccin/bemenu), [simplex](https://github.com/catppuccin/simplex), [tofi](https://github.com/catppuccin/tofi) |  |
+| [isabelincorp](https://github.com/isabelincorp) | [oldtwitter](https://github.com/catppuccin/oldtwitter) |  |
 | [isabelroses](https://github.com/isabelroses) | [sddm](https://github.com/catppuccin/sddm), [freshrss](https://github.com/catppuccin/freshrss), [userstyles](https://github.com/catppuccin/userstyles), [swaync](https://github.com/catppuccin/swaync), [opera-gx](https://github.com/catppuccin/opera-gx) |  |
 | [itzTheMeow](https://github.com/itzTheMeow) | [userstyles](https://github.com/catppuccin/userstyles) |  |
 | [jayylmao](https://github.com/jayylmao) | [dopamine](https://github.com/catppuccin/dopamine), [nilesoft-shell](https://github.com/catppuccin/nilesoft-shell) |  |
@@ -112,10 +118,11 @@
 | [mrtnvgr](https://github.com/mrtnvgr) | [nvim](https://github.com/catppuccin/nvim) |  |
 | [mvilk](https://github.com/mvilk) | [minecraft](https://github.com/catppuccin/minecraft) |  |
 | [ndsboy](https://github.com/ndsboy) | [plymouth](https://github.com/catppuccin/plymouth), [solvespace](https://github.com/catppuccin/solvespace), [heroic](https://github.com/catppuccin/heroic), [userstyles](https://github.com/catppuccin/userstyles) |  |
+| [nekowinston](https://github.com/nekowinston) | [gnome-terminal](https://github.com/catppuccin/gnome-terminal), [vscode](https://github.com/catppuccin/vscode), [wezterm](https://github.com/catppuccin/wezterm), [tailwindcss](https://github.com/catppuccin/tailwindcss), [highlightjs](https://github.com/catppuccin/highlightjs), [alfred](https://github.com/catppuccin/alfred), [qutebrowser](https://github.com/catppuccin/qutebrowser), [noir](https://github.com/catppuccin/noir), [bat](https://github.com/catppuccin/bat), [homebrew-tap](https://github.com/catppuccin/homebrew-tap), [k9s](https://github.com/catppuccin/k9s), [warp](https://github.com/catppuccin/warp), [Terminal.app](https://github.com/catppuccin/Terminal.app), [mattermost](https://github.com/catppuccin/mattermost), [bottom](https://github.com/catppuccin/bottom), [sc-im](https://github.com/catppuccin/sc-im), [cider](https://github.com/catppuccin/cider), [gitea](https://github.com/catppuccin/gitea), [zsh-fsh](https://github.com/catppuccin/zsh-fsh) |  |
 | [night-lake](https://github.com/night-lake) | [userstyles](https://github.com/catppuccin/userstyles) |  |
 | [npv12](https://github.com/npv12) |  | [gtk](https://github.com/catppuccin/gtk) |
 | [nullchilly](https://github.com/nullchilly) | [nvim](https://github.com/catppuccin/nvim) |  |
-| [nullishamy](https://github.com/nullishamy) | [lazygit](https://github.com/catppuccin/lazygit) |  |
+| [nullishamy](https://github.com/nullishamy) | [thunderbird](https://github.com/catppuccin/thunderbird), [lazygit](https://github.com/catppuccin/lazygit), [serenity-os](https://github.com/catppuccin/serenity-os) |  |
 | [nyxkrage](https://github.com/nyxkrage) | [emacs](https://github.com/catppuccin/emacs) |  |
 | [ohitstom](https://github.com/ohitstom) | [spicetify](https://github.com/catppuccin/spicetify) |  |
 | [ohxxm](https://github.com/ohxxm) | [conky](https://github.com/catppuccin/conky), [helix](https://github.com/catppuccin/helix), [dmenu](https://github.com/catppuccin/dmenu) |  |
@@ -132,13 +139,12 @@
 | [riivx](https://github.com/riivx) | [vendetta](https://github.com/catppuccin/vendetta) |  |
 | [rithikasilva](https://github.com/rithikasilva) | [blink](https://github.com/catppuccin/blink) |  |
 | [rockquiet](https://github.com/rockquiet) | [userstyles](https://github.com/catppuccin/userstyles) |  |
-| [rogeruiz](https://github.com/rogeruiz) |  | [tmux](https://github.com/catppuccin/tmux) |
 | [rubyowo](https://github.com/rubyowo) | [gtk](https://github.com/catppuccin/gtk), [discord](https://github.com/catppuccin/discord), [waybar](https://github.com/catppuccin/waybar), [hyprland](https://github.com/catppuccin/hyprland), [youtubemusic](https://github.com/catppuccin/youtubemusic), [i3](https://github.com/catppuccin/i3), [userstyles](https://github.com/catppuccin/userstyles) |  |
 | [ryanccn](https://github.com/ryanccn) | [userstyles](https://github.com/catppuccin/userstyles) |  |
 | [sacerd-OS](https://github.com/sacerd-OS) | [gedit](https://github.com/catppuccin/gedit) |  |
-| [sadrach-cl](https://github.com/sadrach-cl) | [alfred](https://github.com/catppuccin/alfred) |  |
 | [sakkke](https://github.com/sakkke) | [zutty](https://github.com/catppuccin/zutty), [tabby](https://github.com/catppuccin/tabby), [github-readme-tech-stack](https://github.com/catppuccin/github-readme-tech-stack), [vivaldi](https://github.com/catppuccin/vivaldi) |  |
 | [schoblaska](https://github.com/schoblaska) | [base16](https://github.com/catppuccin/base16) |  |
+| [sgoudham](https://github.com/sgoudham) | [mdBook](https://github.com/catppuccin/mdBook), [sharex](https://github.com/catppuccin/sharex), [slack](https://github.com/catppuccin/slack), [java](https://github.com/catppuccin/java), [windows-files](https://github.com/catppuccin/windows-files), [glamour](https://github.com/catppuccin/glamour), [jetbrains](https://github.com/catppuccin/jetbrains) |  |
 | [skelebro1](https://github.com/skelebro1) | [userstyles](https://github.com/catppuccin/userstyles) |  |
 | [skinatro](https://github.com/skinatro) | [floris-board](https://github.com/catppuccin/floris-board) |  |
 | [sm185592](https://github.com/sm185592) |  | [powershell](https://github.com/catppuccin/powershell) |
@@ -147,14 +153,17 @@
 | [southqaw](https://github.com/southqaw) | [yakuake](https://github.com/catppuccin/yakuake) |  |
 | [soya-daizu](https://github.com/soya-daizu) | [userstyles](https://github.com/catppuccin/userstyles) |  |
 | [spaghettiosareyummy](https://github.com/spaghettiosareyummy) | [userstyles](https://github.com/catppuccin/userstyles) |  |
+| [taka0o](https://github.com/taka0o) | [regolith](https://github.com/catppuccin/regolith) |  |
 | [tecandrew](https://github.com/tecandrew) | [zed](https://github.com/catppuccin/zed) |  |
 | [tetov](https://github.com/tetov) | [fuzzel](https://github.com/catppuccin/fuzzel) |  |
 | [thismoon](https://github.com/thismoon) | [userstyles](https://github.com/catppuccin/userstyles) |  |
 | [tiepp](https://github.com/tiepp) | [jetbrains](https://github.com/catppuccin/jetbrains) |  |
+| [trinkey](https://github.com/trinkey) | [userstyles](https://github.com/catppuccin/userstyles) |  |
 | [tsjazil](https://github.com/tsjazil) | [st](https://github.com/catppuccin/st) |  |
 | [uncenter](https://github.com/uncenter) | [userstyles](https://github.com/catppuccin/userstyles), [yazi](https://github.com/catppuccin/yazi) |  |
 | [uncomfyhalomacro](https://github.com/uncomfyhalomacro) | [kakoune](https://github.com/catppuccin/kakoune) |  |
 | [useEffects](https://github.com/useEffects) | [flutter](https://github.com/catppuccin/flutter) |  |
+| [vdbe](https://github.com/vdbe) | [tmux](https://github.com/catppuccin/tmux) |  |
 | [vinibispo](https://github.com/vinibispo) |  | [nvim](https://github.com/catppuccin/nvim) |
 | [vollowx](https://github.com/vollowx) |  | [nvim](https://github.com/catppuccin/nvim) |
 | [walshyb](https://github.com/walshyb) | [latex](https://github.com/catppuccin/latex) |  |

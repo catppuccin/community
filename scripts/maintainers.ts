@@ -6,6 +6,11 @@ const org = "catppuccin";
 
 const octokit = new Octokit({ auth: Deno.env.get("GITHUB_TOKEN") });
 
+const userRow = (user: string) => `[${user}](https://github.com/${user})`;
+
+const toTableRow = (repo: string) =>
+  `[${repo}](https://github.com/catppuccin/${repo})`;
+
 type Table = {
   [person: string]: {
     write_repos: string[];
@@ -18,7 +23,57 @@ const leadershipRow =
 const table: Table = {
   [leadershipRow]: {
     write_repos: [],
-    maintain_repos: [],
+    maintain_repos: [
+      //   "catppuccin",
+      //   "template",
+      //   "palette",
+      //   ".github",
+      //   "toolbox",
+      //   "website",
+      "homebrew-tap",
+      //   "community",
+    ].map(toTableRow),
+  },
+  [userRow("sgoudham")]: {
+    write_repos: [],
+    maintain_repos: [
+      "mdBook",
+      "sharex",
+      "slack",
+      "java",
+      "windows-files",
+      "glamour",
+      "jetbrains"
+    ].map(
+      toTableRow,
+    ),
+  },
+  [userRow("backwardspy")]: {
+    write_repos: [],
+    maintain_repos: [
+      "fish",
+      "rust",
+      "python",
+      "godot",
+      "qtcreator",
+      "dwarf-fortress",
+    ].map(toTableRow),
+  },
+  [userRow("taka0o")]: {
+    write_repos: [],
+    maintain_repos: ["regolith"].map(toTableRow),
+  },
+  [userRow("ghostx31")]: {
+    write_repos: [],
+    maintain_repos: ["joplin", "foliate", "element"].map(toTableRow),
+  },
+  [userRow("andreasgrafen")]: {
+    write_repos: [],
+    maintain_repos: ["revolt"].map(toTableRow),
+  },
+  [userRow("isabelincorp")]: {
+    write_repos: [],
+    maintain_repos: ["oldtwitter"].map(toTableRow),
   },
 };
 
